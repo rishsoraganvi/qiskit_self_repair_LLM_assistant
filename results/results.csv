@@ -1,0 +1,61 @@
+task_id,attempt,passed,error_class,exec_seconds,prompt_tokens,completion_tokens,cache_hit,timed_out,note,finish_reason,code_chars,stderr_last_line
+qiskitHumanEval/4,0,True,pass,1.81,231,286,True,False,,stop,808,
+qiskitHumanEval/5,0,True,pass,1.689,172,100,True,False,,stop,182,
+qiskitHumanEval/12,0,True,pass,1.717,192,202,True,False,,stop,469,
+qiskitHumanEval/14,0,False,api_version,6.653,253,491,True,False,,stop,1146,TypeError: Sampler.__init__() got an unexpected keyword argument 'backend'
+qiskitHumanEval/14,1,False,other,4.987,690,499,True,False,,stop,1174,ValueError: A backend or session must be specified.
+qiskitHumanEval/14,2,False,api_version,5.352,788,350,False,False,,stop,1077,TypeError: Sampler.__init__() got an unexpected keyword argument 'backend'
+qiskitHumanEval/14,3,False,api_version,4.746,682,605,False,False,,stop,1101,ImportError: cannot import name 'Sampler' from 'qiskit.primitives' (<venv>\Lib\site-packages\qiskit\primitives\__init__.py)
+qiskitHumanEval/15,0,False,api_version,5.744,250,350,True,False,,stop,1190,TypeError: Sampler.__init__() got an unexpected keyword argument 'backend'
+qiskitHumanEval/15,1,False,other,4.623,696,732,True,False,,stop,1176,ValueError: A backend or session must be specified.
+qiskitHumanEval/15,2,False,api_version,5.656,784,556,False,False,,stop,1325,TypeError: Sampler.__init__() got an unexpected keyword argument 'backend'
+qiskitHumanEval/15,3,False,other,5.651,732,458,False,False,,stop,1326,"ValueError: An invalid Sampler pub-like was given (<class 'qiskit._accelerate.circuit.CircuitInstruction'>). If you want to run a single circuit, you need to wrap it with `[]` like `sampler.run([circu"
+qiskitHumanEval/18,0,True,pass,7.375,224,268,True,False,,stop,850,
+qiskitHumanEval/26,0,True,pass,2.519,238,333,True,False,,stop,876,
+qiskitHumanEval/28,0,False,api_version,9.361,220,501,True,False,,stop,1372,ImportError: cannot import name 'Aer' from 'qiskit' (<venv>\Lib\site-packages\qiskit\__init__.py)
+qiskitHumanEval/28,1,False,api_version,6.226,703,419,False,False,,stop,1298,"TypeError: int() argument must be a string, a bytes-like object or a real number, not 'Counts'"
+qiskitHumanEval/28,2,True,pass,6.354,942,439,False,False,,stop,1360,
+qiskitHumanEval/30,0,True,pass,3.594,202,184,True,False,,stop,563,
+qiskitHumanEval/32,0,False,api_version,5.821,229,391,True,False,,stop,994,TypeError: Estimator.__init__() got an unexpected keyword argument 'backend'
+qiskitHumanEval/32,1,False,other,5.028,640,399,True,False,,stop,960,ValueError: A backend or session must be specified.
+qiskitHumanEval/32,2,False,api_version,5.248,725,356,False,False,,stop,984,TypeError: Estimator.__init__() got an unexpected keyword argument 'backend'
+qiskitHumanEval/32,3,False,other,4.84,635,391,False,False,,stop,985,ValueError: A backend or session must be specified.
+qiskitHumanEval/37,0,False,api_version,6.738,255,475,True,False,,stop,1592,TypeError: Sampler.__init__() got an unexpected keyword argument 'backend'
+qiskitHumanEval/37,1,False,other,4.593,805,652,True,False,,stop,1337,ValueError: A backend or session must be specified.
+qiskitHumanEval/37,2,False,api_version,4.844,841,469,False,False,,stop,1447,TypeError: Sampler.__init__() got an unexpected keyword argument 'backend'
+qiskitHumanEval/37,3,False,api_version,5.611,774,603,False,False,,stop,1476,ImportError: cannot import name 'Sampler' from 'qiskit.primitives' (<venv>\Lib\site-packages\qiskit\primitives\__init__.py)
+qiskitHumanEval/42,0,True,pass,1.885,193,206,True,False,,stop,493,
+qiskitHumanEval/69,0,True,pass,2.034,218,231,True,False,,stop,503,
+qiskitHumanEval/80,0,True,pass,2.108,188,213,True,False,,stop,271,
+qiskitHumanEval/85,0,True,pass,2.291,197,148,True,False,,stop,252,
+qiskitHumanEval/87,0,True,pass,2.112,195,233,True,False,,stop,291,
+qiskitHumanEval/91,0,False,api_version,1.797,194,234,True,False,,stop,570,TypeError: circuit_to_instruction() got an unexpected keyword argument 'name'
+qiskitHumanEval/91,1,False,logic,1.869,498,190,True,False,,stop,587,          └───┘
+qiskitHumanEval/91,2,True,pass,2.252,641,280,True,False,,stop,696,
+qiskitHumanEval/93,0,True,pass,1.989,224,290,True,False,,stop,686,
+qiskitHumanEval/100,0,True,pass,53.806,233,275,True,False,,stop,732,
+qiskitHumanEval/102,0,False,other,5.434,250,414,True,False,,stop,1157,TypeError: 'str' object is not callable
+qiskitHumanEval/102,1,True,pass,5.473,684,329,True,False,,stop,1141,
+qiskitHumanEval/107,0,True,pass,1.92,191,142,True,False,,stop,301,
+qiskitHumanEval/110,0,True,pass,2.391,221,464,True,False,,stop,1099,
+qiskitHumanEval/112,0,False,api_version,2.46,274,554,True,False,,stop,1381,TypeError: LieTrotter.__init__() got an unexpected keyword argument 'num_steps'
+qiskitHumanEval/112,1,False,api_version,1.91,789,351,True,False,,stop,1115,TypeError: LieTrotter.__init__() got an unexpected keyword argument 'steps'
+qiskitHumanEval/112,2,False,api_version,2.135,721,360,True,False,,stop,1153,TypeError: LieTrotter.__init__() got an unexpected keyword argument 'num_steps'
+qiskitHumanEval/112,3,True,pass,2.587,728,529,True,False,,stop,1175,
+qiskitHumanEval/115,0,False,api_version,2.065,277,395,True,False,,stop,1223,AttributeError: Instruction u is already in the target
+qiskitHumanEval/115,1,True,pass,2.514,777,424,False,False,,stop,1216,
+qiskitHumanEval/127,0,False,logic,2.229,216,150,True,False,,stop,366,AssertionError: Generated circuit does not match expected circuit
+qiskitHumanEval/127,1,False,api_version,1.965,434,407,True,False,,stop,503,AttributeError: 'QuantumCircuit' object has no attribute '_create_classical_register'
+qiskitHumanEval/127,2,False,logic,1.886,518,261,True,False,,stop,441,AssertionError: Generated circuit does not match expected circuit
+qiskitHumanEval/127,3,True,pass,1.917,455,176,True,False,,stop,294,
+qiskitHumanEval/136,0,True,pass,2.647,186,240,True,False,,stop,580,
+qiskitHumanEval/137,0,False,other,1.896,205,226,True,False,,stop,699,qiskit.exceptions.QiskitError: 'Input density matrix must be a 2-qubit state.'
+qiskitHumanEval/137,1,True,pass,2.595,594,256,False,False,,stop,664,
+qiskitHumanEval/141,0,False,api_version,2.083,219,847,True,False,,stop,1372,AttributeError: 'Pauli' object has no attribute 'num_terms'
+qiskitHumanEval/141,1,False,api_version,1.988,708,716,True,False,,stop,1374,AttributeError: type object 'Pauli' has no attribute 'random'
+qiskitHumanEval/141,2,False,timeout,60.01,743,550,True,True,,stop,1460,Execution timed out after 60 seconds.
+qiskitHumanEval/141,3,False,api_version,2.26,632,852,True,False,,stop,2055,AttributeError: 'SparsePauliOp' object has no attribute 'commutes'
+qiskitHumanEval/147,0,False,api_version,1.903,199,405,True,False,,stop,389,TypeError: QuantumCircuit.mcry() got an unexpected keyword argument 'ancilla_qubits'
+qiskitHumanEval/147,1,False,logic,2.119,468,319,True,False,,stop,374,AssertionError: Operators are not equivalent
+qiskitHumanEval/147,2,True,pass,2.279,426,485,True,False,,stop,333,
+qiskitHumanEval/148,0,True,pass,4.771,237,372,True,False,,stop,1364,
